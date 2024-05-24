@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b64d45917fe848a448c9917adf657c34, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fe9d1600023d9e4793c41b684c33ee9, type: 3}
   m_Name: NewStory
   m_EditorClassIdentifier: 
   storyNumber: 0
+  mainImage: {fileID: 0}
   storyType: 0
   storyDone: 0
   storyText: 
-  options: []
