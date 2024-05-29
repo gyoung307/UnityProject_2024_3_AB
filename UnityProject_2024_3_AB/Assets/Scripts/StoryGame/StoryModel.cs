@@ -26,6 +26,8 @@ public class StoryModel : ScriptableObject
 
     public GUILayoutOption[] option;
 
+    public Option[] options;
+
     [System.Serializable]
     public class Option
     {

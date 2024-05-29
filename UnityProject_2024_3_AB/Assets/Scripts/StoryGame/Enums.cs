@@ -1,46 +1,48 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Enums
 {
-
-    public enum StoryType
+    public enum StroyType       //스토리 타입
     {
         MAIN,
         SUB,
         SERIAL
     }
 
-    public enum EventType
+    public enum EventType       //이벤트 발생시 체크
     {
         NONE,
-        GOTTOBATTLE = 100,
+        GOTOBATTLE = 100,
         CheckSTR = 1000,
     }
 
-    public enum ResultType
+    public enum ResultType      //이벤트 결과 열거
     {
         AddExperience,
-        GoToNextStory,
-        GoTORandoemStory
+        GoToNextSotry,
+        GoToRandoemStory
     }
 
-    [System.Serializable]
-    public class Stats
-    {
-        public int hpPoint;
-        public int spPoint;
 
-        public int currentHpPoint;
-        public int currentSpPoint;
-        public int currentXpPoint;
+}
 
-        public int strength;
-        public int dexterity;
-        public int consitution;
-        public int Intelligence;
-        public int wisdom;
-        public int charisma;
-    }
+[System.Serializable]
+public class Stats
+{
+    public int hpPoint;
+    public int spPoint;
+
+    public int currentHpPoint;
+    public int currentSpPoint;
+    public int currentXpPoint;
+
+    public int strength;
+    public int dexterity;
+    public int consitution;
+    public int Intelligence;
+    public int wisdom;
+    public int charisma;
 }

@@ -180,9 +180,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e3207323bd8afc4983de125bbbab826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats:
+    hpPoint: 0
+    spPoint: 0
+    currentHpPoint: 0
+    currentSpPoint: 0
+    currentXpPoint: 0
+    strength: 0
+    dexterity: 0
+    consitution: 0
+    Intelligence: 0
+    wisdom: 0
+    charisma: 0
   currentState: 0
-  storyModels: []
-  currentStoryInex: 1
+  currentStoryIndex: 1
+  stroyModels: []
 --- !u!1 &485135599
 GameObject:
   m_ObjectHideFlags: 0
